@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Apartment Rentals</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_dialog_loading">Загрузка...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_reload">Повторить</string>
+    <string name="text_warning_dont_have_internet">Произошла ошибка, проверьте соединение с интернетом</string>
+</resources>
