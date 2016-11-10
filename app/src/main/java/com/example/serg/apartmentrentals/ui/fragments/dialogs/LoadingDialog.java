@@ -1,4 +1,4 @@
-package com.example.serg.apartmentrentals;
+package com.example.serg.apartmentrentals.ui.fragments.dialogs;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
+
+import com.example.serg.apartmentrentals.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

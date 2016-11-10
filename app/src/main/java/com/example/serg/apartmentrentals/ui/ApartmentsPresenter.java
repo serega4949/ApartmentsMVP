@@ -1,8 +1,9 @@
-package com.example.serg.apartmentrentals;
+package com.example.serg.apartmentrentals.ui;
 
 import android.support.annotation.NonNull;
 
 import com.example.serg.apartmentrentals.api.ApartmentsService;
+import com.example.serg.apartmentrentals.ui.ApartmentsView;
 import com.example.serg.apartmentrentals.utils.RxUtils;
 
 import rx.Subscription;

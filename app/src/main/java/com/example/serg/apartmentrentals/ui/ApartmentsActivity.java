@@ -1,4 +1,4 @@
-package com.example.serg.apartmentrentals;
+package com.example.serg.apartmentrentals.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,10 +9,14 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.widget.Toast;
 
+import com.example.serg.apartmentrentals.App;
+import com.example.serg.apartmentrentals.R;
 import com.example.serg.apartmentrentals.api.ApartmentsService;
 import com.example.serg.apartmentrentals.responses.ApartmensResponse;
+import com.example.serg.apartmentrentals.ui.fragments.ApartmentsListFragment;
+import com.example.serg.apartmentrentals.ui.fragments.ErrorFragment;
+import com.example.serg.apartmentrentals.ui.fragments.dialogs.LoadingDialog;
 import com.example.serg.apartmentrentals.utils.NetworkUtils;
 
 import javax.inject.Inject;

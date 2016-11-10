@@ -1,6 +1,6 @@
 package com.example.serg.apartmentrentals.di;
 
-import com.example.serg.apartmentrentals.ApartmentsActivity;
+import com.example.serg.apartmentrentals.ui.ApartmentsActivity;
 
 import javax.inject.Singleton;
 

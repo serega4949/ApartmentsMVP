@@ -1,4 +1,4 @@
-package com.example.serg.apartmentrentals;
+package com.example.serg.apartmentrentals.ui.fragments;
 
 
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.serg.apartmentrentals.ui.ApartmentsPresenter;
+import com.example.serg.apartmentrentals.R;
 import com.example.serg.apartmentrentals.adapters.ApartmentsAdapter;
 import com.example.serg.apartmentrentals.responses.ApartmensResponse;
 
